@@ -1,0 +1,11 @@
+applications:
+- path: target/JavaDBApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: sampleappNK1
+  host: sampleappNK1
+  disk_quota: 1024M
+  services:
+  - sampleappNK1-sqldb
+  - Text to Speech-nq
